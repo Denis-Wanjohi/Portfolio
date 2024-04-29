@@ -20,13 +20,13 @@
 import {ref} from 'vue'
 const image = [
     {
-        img:"../../public/Images/read.png",
+        img:"/Images/read.png",
     },
     {
-        img:"../../public/Images/view.png",
+        img:"/Images/view.png",
     },
     {
-        img:"../../public/Images/post.png",
+        img:"/Images/post.png",
     }
 ]
 
