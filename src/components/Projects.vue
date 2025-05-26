@@ -42,7 +42,7 @@ const projects = [
     {
         name: 'Riti Association',
         logo: 'https://ritiassociation.or.ke/images/logo.jpg',
-        sub_title: 'Connection employers and employees',
+        sub_title: 'Connecting employers and employees',
         link: 'https://ritiassociation.or.ke/',
         desc: 'Web Application that find employers  ready and available employees that are specific to their skill sets ',
         stack: ['Laravel','Vue js', 'Primevue']
@@ -70,6 +70,14 @@ const projects = [
         link: null,
         desc: 'This is a guide application around the university where the user just prompts the app and the app responds with specific and clear instructions to the specific location required.Its powered by AI ,NLP, for understanding capabilities',
         stack: ['Java','XML', 'Gemni api']
+    },
+    {
+        name: 'Study Duck',
+        logo: '',
+        sub_title: 'Personalized learning partner',
+        link: 'https://study-duck.vercel.app/',
+        desc: 'This is a study partner that helps one to go through documents and pdfs in search for correct and specific issues or answers directly from the file',
+        stack: ['Nuxt js','Supabase', 'Gemni api']
     },
 ]
 const image = [
