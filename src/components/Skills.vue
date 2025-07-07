@@ -47,7 +47,7 @@ const skills = [
     title: 'BACKEND',
     icon: 'mdi-laravel',
     name: 'Laravel',
-    desc: 'A powerful PHP framework that simplifies web application development with elegant syntax and tools.',
+    desc: 'Powerful PHP framework that simplifies web application development with elegant syntax and tools.',
     color: '#e74430'
   },
   {
@@ -68,21 +68,21 @@ const skills = [
     title: 'DATABASES',
     icon: 'mdi-database',
     name: 'MySQL,Supabase',
-    desc: 'database management systems.',
+    desc: 'For database management.',
     color: '#00758f'
   },
   {
     title: 'Collaboration',
     icon: 'mdi-github',
     name: 'Github',
-    desc: 'A platform for version control and collaboration, enabling code sharing and project management.',
+    desc: 'Version control and collaboration, enabling code sharing and project management.',
     color: '#181717'
   },
   {
     title: 'CICD',
     icon: 'mdi-docker',
     name: 'Docker',
-    desc: 'A platform for automating application deployment using lightweight, portable containers for consistency.',
+    desc: 'For automating application deployment using lightweight, portable containers for consistency.',
     color: '#2496ed'
   }
 ];
