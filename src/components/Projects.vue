@@ -57,9 +57,9 @@ const projects = [
     },
     {
         name: 'Class Attendance System',
-        logo: 'https://cas-alpha.vercel.app/',
+        logo: '',
         sub_title: 'Attendance system using facial recognition',
-        link: 'https://ritiassociation.or.ke/',
+        link: 'https://cas-alpha.vercel.app/',
         desc: "Inspired by 'Facial Recognition system' this a web application specific to class attendace monitoring using learners/students faces.",
         stack: ['Laravel','Vue js','faceapi.js', 'Primevue']
     },
@@ -79,17 +79,6 @@ const projects = [
         desc: 'This is a study partner that helps one to go through documents and pdfs in search for correct and specific issues or answers directly from the file',
         stack: ['Nuxt js','Supabase', 'Gemni api']
     },
-]
-const image = [
-    {
-        img: "/Images/read.png",
-    },
-    {
-        img: "/Images/view.png",
-    },
-    {
-        img: "/Images/post.png",
-    }
 ]
 
 let i = 1
