@@ -14,7 +14,7 @@
                         <p class="text-gray-700 text-sm">{{ project.sub_title }}</p>
                     </div>
                 </div>
-                <div class=" h-60 text-md">
+                <div class=" h-60 text-md overflow-y-scroll">
                     <v-chip class="ma-2" color="" label v-for="tag in project.stack">
                         <p class="font-bold">{{ tag }}</p>
                     </v-chip>

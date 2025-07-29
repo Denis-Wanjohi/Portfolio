@@ -8,9 +8,9 @@
             <p class="font-bold text-2xl cinzel-700">{{ skill.title }}</p>
           </template>
           <div>
-            <div class="text-h6 ">{{ skill.name }}</div>
+            <!-- <div class="text-h6 ">{{ skill.name }}</div> -->
             <v-alert :color="skill.color" :icon="skill.icon" :value="true">
-              {{ skill.desc }}
+              {{ skill.name }}
             </v-alert>
           </div>
         </v-timeline-item>
@@ -22,10 +22,10 @@
           <template v-slot:opposite>
             <p class="font-bold text-2xl  text-center cinzel-700">{{ skill.title }}</p>
           </template>
-          <div class="w-[300px]">
-            <div class="text-h6 text-center open-sans">{{ skill.name }}</div>
+          <div class="w-[300px] text-center">
+            <!-- <div class="text-h6 text-center open-sans">{{ skill.name }}</div> -->
             <v-alert :color="skill.color" :icon="skill.icon" :value="true">
-              {{ skill.desc }}
+              {{ skill.name }}
             </v-alert>
           </div>
         </v-timeline-item>
