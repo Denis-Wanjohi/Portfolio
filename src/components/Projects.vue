@@ -81,16 +81,4 @@ const projects = [
     },
 ]
 
-let i = 1
-let blogImg = ref(image[0].img)
-setInterval(() => {
-    blogImg.value = image[i].img
-    i++
-    if (i == 3) {
-        i = 0
-    }
-}, 5000)
-
 </script>
-
-<style></style>
