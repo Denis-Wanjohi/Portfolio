@@ -43,7 +43,7 @@ const projects = [
         name: 'Riti Association',
         logo: 'https://ritiassociation.or.ke/images/logo.jpg',
         sub_title: 'Connecting employers and employees',
-        link: 'https://ritiassociation.or.ke/',
+        link: 'https://riti-association.vercel.app/',
         desc: 'Web Application that find employers  ready and available employees that are specific to their skill sets ',
         stack: ['Laravel','Vue js', 'Primevue']
     },
